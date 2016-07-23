@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Motion Detect
+Comment=Press q for exit
+Exec="/home/alexandre/Dropbox/GitHub/Software/python/dist/01 - basic motion detect"
+Icon=/home/alexandre/Dropbox/GitHub/Software/python/dist/cam.svg
+Terminal=false
