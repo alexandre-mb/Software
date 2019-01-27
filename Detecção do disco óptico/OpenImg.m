@@ -2,11 +2,17 @@ close all
 clear all
 clc
 
-origImg = imread('IDRiD_01.jpg');
+% origImg = imread('IDRiD_01.jpg');
+% origImg = imread('IDRiD_02.jpg');
+% origImg = imread('IDRiD_03.jpg');
+origImg = imread('IDRiD_16.jpg');
 grayOrig = rgb2gray(origImg);
 binOrig = im2bw(grayOrig,0.7);
 
-binGT = im2bw(imread('IDRiD_01_OD.tif'),0.2);
+% binGT = im2bw(imread('IDRiD_01_OD.tif'),0.2);
+% binGT = im2bw(imread('IDRiD_02_OD.tif'),0.2);
+% binGT = im2bw(imread('IDRiD_03_OD.tif'),0.2);
+binGT = im2bw(imread('IDRiD_16_OD.tif'),0.2);
 % dummy = splitRGB(origImg);
 [m,n] = size(binGT);
 sum = zeros(m,n);
