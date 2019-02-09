@@ -20,7 +20,7 @@ from modules.plot import Plot
 
 warnings.filterwarnings("ignore")
 showImages = True
-saveModel = False
+saveModel = True
 
 
 # =========== #
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     dataset.summary(showFilenames=True)
 
     # ----- Model Definition----- #
-    model_num = 4
+    model_num = 1
     model_name = ['hourglass', 'block', 'resglass', 'pirate'][model_num - 1]
     if model_num == 1:
         model = model_1()
